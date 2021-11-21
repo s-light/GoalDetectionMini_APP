@@ -138,9 +138,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `GoalDetectionMini Test App`,
-        short_name: `GoalDetectionMini Test App`,
-        description: `minimalistic PWA for GoalDetectionMini modul`,
+        name: `GoalDetectionMini App`,
+        short_name: `GoalDetectionMini App`,
+        description: `a minimal app as example of the GoalDetectionMini module usecase`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

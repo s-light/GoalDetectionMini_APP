@@ -1,6 +1,6 @@
-# GoalDetectionMini Test App (goaldetectionmini_app)
+# GoalDetectionMini App (goaldetectionmini_app)
 
-minimalistic PWA for GoalDetectionMini modul
+a minimal app as example of the GoalDetectionMini module usecase
 
 ## Install the dependencies
 ```bash
