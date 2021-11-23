@@ -1,6 +1,6 @@
 {
   "name": "goaldetectionmini_app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "a minimal app as example of the GoalDetectionMini module",
   "productName": "GoalDetectionMini App",
   "author": "s-light <git@s-light.eu>",
