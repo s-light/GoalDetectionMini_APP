@@ -1,6 +1,5 @@
 import {
   ref,
-  toRaw,
   onMounted,
   onUnmounted
 } from 'vue';
@@ -47,7 +46,6 @@ export default function keysActiveManager(element = document) {
           for (var key in keysActive.value) {
               if (keysActive.value.hasOwnProperty(key)) {
                 keysActive.value[key] = false
-                delete keysActive.value[key]
               }
           }
           console.log('keysActive cleared by timeout.');
@@ -59,12 +57,10 @@ export default function keysActiveManager(element = document) {
       // console.log('keyDown', event.code)
       event.preventDefault();
       startKeyTimeout()
-      // console.log('keysActive.value', {...keysActive.value })
-      // console.log('keysActive.value', toRaw(keysActive.value))
+      console.log('keysActive.value', keysActive.value)
   }
   const handleKeyUp = event => {
       keysActive.value[event.code] = false
-      delete keysActive.value[event.code]
       // console.log('keyUp', event.code)
       clearKeyTimeoutIfAllReleased()
       event.preventDefault();
@@ -83,8 +79,7 @@ export default function keysActiveManager(element = document) {
   onMounted(setupKeyListener)
   onUnmounted(cleanup)
 
-  // return {
-  //   keysActive
-  // }
-  return keysActive.value
+  return {
+    keysActive
+  }
 }
