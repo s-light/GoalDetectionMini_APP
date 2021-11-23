@@ -2,7 +2,7 @@
 
 a minimal app as example of the GoalDetectionMini module
 
-have a look at the [online preview](https://s-light.github.io/GoalDetectionMini_APP/app/dist/spa/#/)
+have a look at the [online preview](https://s-light.github.io/GoalDetectionMini_APP/dist/spa/#/)
 
 ## self hosting & development
 ### Install the dependencies
