@@ -3,7 +3,7 @@ import {
     watch
 } from 'vue';
 
-import keysActive from '@/composables/keysActive'
+import keysActive from './keysActive'
 
 export default function connectionGoalDetectionMini() {
     const connected = ref(false)

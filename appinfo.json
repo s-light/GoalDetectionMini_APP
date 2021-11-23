@@ -1,0 +1,8 @@
+{
+  "name": "goaldetectionmini_app",
+  "version": "0.0.1",
+  "productName": "GoalDetectionMini App",
+  "description": "a minimal app as example of the GoalDetectionMini module",
+  "projectUrl": "https://github.com/s-light/GoalDetectionMini_APP",
+  "previewUrl": "https://s-light.github.io/GoalDetectionMini_APP/app/dist/spa/#/"
+}

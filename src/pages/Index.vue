@@ -15,7 +15,9 @@ import {
   onMounted
 } from 'vue';
 
-import connectionGoalDetectionMini from '@/composables/connectionGoalDetectionMini'
+// import connectionGoalDetectionMini from '@/composables/connectionGoalDetectionMini'
+
+import connectionGoalDetectionMini from '../composables/connectionGoalDetectionMini'
 
 export default defineComponent({
   name: 'PageIndex'
